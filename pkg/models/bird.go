@@ -63,7 +63,7 @@ func min(one float64, two int) float64 {
 
 func (b *Bird) Render(renderer Renderer) {
     bird := make([][]byte, 1)
-    bird[0] = []byte{'@'}
+    bird[0] = []byte{'🐥'}
 
     renderer.Render(b.Pos, bird)
 }
